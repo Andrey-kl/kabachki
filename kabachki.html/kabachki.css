@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+}
+.d__0{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.d1{
+    background-color: rgb(19, 211, 211);
+}
+.d2{
+    background-color: rgb(190, 16, 138);
+    color: blanchedalmond;
+}
+.d3{
+    background-color: rgb(228, 116, 25);
+}
+p{
+  color: black; 
+}
+header{
+    background: rgb(255,158,0);
+    background: linear-gradient(90deg, rgba(255,158,0,1) 0%, rgba(191,86,4,1) 0%, rgba(121,9,9,1) 100%);
+    padding: 3%;
+    box-shadow: 0px 5px 15px dimgray;
+}
+.header__p{
+    color: black;
+    position: relative;
+    font-size: 30px;
+    left: 15%;
+}
+.header__div{
+    display: flex;
+}
+.d1,
+.d2,
+.d3{
+    width: 100%;
+    min-width: 100px;
+    display: grid;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px dimgray;
+    font-family: "Roboto", sans-serif;
+}
+.kaba__img{
+    border-radius: 15px;
+    margin-top: 40px;
+    box-shadow: 0px 5px 15px dimgray;
+    width: 100%;
+}
+.osn__div{
+    display: flex;
+    padding: 30px 10px;
+    width: 30%;
+    min-width: 100px;
+    display: grid;
+    font-family: "Roboto", sans-serif;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 230px;
+}
+.main__div{
+    background-color: none;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+.main__det{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(76, 0, 199);
+    bottom: 10px;
+    border-radius: 10px;
+    width: 320px;
+}
+summary{
+    background-color: rgb(65, 0, 168);
+    padding: 20px;
+    color: white;
+    line-height: 1.6;
+    border-radius: 10px;
+}
+.main__p2{
+    background-color: rgb(76, 0, 199);
+    padding: 0px 20px;
+    padding-top: 10px;
+    line-height: 1.6;
+     font-family: "Roboto", sans-serif;
+     color: white;
+     border-radius: 10px;
+
+}
+.det__img{
+    display: flex;
+    width: 80%;
+    border-radius: 15px;
+    margin: 10% 10%;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.d2__p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h2{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.table1{
+    border: 3px solid black;
+}
+.th,
+.tr{
+border: 3px solid black;
+}
