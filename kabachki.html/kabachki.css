@@ -27,26 +27,16 @@ header{
     background: linear-gradient(90deg, rgba(255,158,0,1) 0%, rgba(191,86,4,1) 0%, rgba(121,9,9,1) 100%);
     padding: 3%;
     box-shadow: 0px 5px 10px dimgray;
-    position: absolute;
-}
-.osn__art{
-    position: fixed;
-    background-color: none;
     display: flex;
-    align-items: flex-end;
-    width: 200px;
-    height: 1000px;
-    flex-wrap: wrap;
-    top: 0%;
-    left: 90%;
-    box-sizing: border-box;
-    
 }
 .header__p{
     color: black;
     position: relative;
     font-size: 30px;
-    left: 15%;
+    left: 0%;
+    font-size: 30px;
+    line-height: 1.8;
+    margin-left: 3%;
 }
 .header__div{
     display: flex;
@@ -142,7 +132,6 @@ h2{
 h3{
     margin-left: 3%;
     margin-top: 30px;
-    margin-bottom: 40px;
 }
 .li__1{
     justify-content: space-between;
@@ -167,6 +156,59 @@ h3{
     list-style-type: square;
     padding: 0px;
 }
+h6{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 3%;
+    margin-bottom: 0px;
+}
+.dosp__p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 3%;
+}
+.sp{
+    display: flex;
+    flex-direction: column;
+}
+.sp__div{
+    margin-bottom: 80px;
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+.sp__img{
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px dimgray;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.sp__p{
+    padding-left: 40px;
+    width: 90%;
+}
+.sp__p2{
+    margin-left: 3%;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    justify-content: start;
+}
+.footer__p{
+    color: white;
+    margin-left: 14%;
+}
+h4{
+    display: flex;
+    font-size: 30px;
+    margin-left: 40px;
+ margin-bottom: 5px;
+}
 @media (max-width: 669px) {
     .ul__div2,
     .ul__div1{
@@ -179,4 +221,33 @@ h3{
     .li__1{
         width: 100%;
     }
+    .sp__div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sp__p{
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .main__det{
+        width: 90%;
+    }
+    .sr{
+        margin-bottom: 50px;
+    }
+    h4{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    .dosp__p{
+        font-size: 15px;
+    }
+    .sp__img{
+        margin: 0px 0px;
+    }
 } 
+
